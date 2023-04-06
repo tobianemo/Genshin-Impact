@@ -1,0 +1,307 @@
+/* CSS Document */
+
+/*
+	font-family: 'Cinzel', serif;
+	font-family: 'Cinzel Decorative', cursive;
+	font-family: 'Italianno', cursive;
+	font-family: 'Josefin Sans', sans-serif;
+*/
+
+/*
+	#C7E6F0 - Flower blue
+	#3780A9 - Sea Blue
+	#011167 - Dark Sky Blue
+	#E5EBF7 - Flower/Cloud White
+	#F1F1D7 - Pollen Yellow
+	#9E7340 - Gold
+	#4F332F - Aether's Outfit
+	#79999B - Lumine's Blue
+	#FEFFF1 - Lumine's Dress
+	#ECCE9C - Aether's Cape
+	#E2B55B - Twin's Hair
+	#632E11 - Brown
+*/
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #e5ebf7;
+}
+
+.hnav {
+	background-color: #e5ebf7;
+	height: 50px;
+	text-align: center;
+	padding-top: 1.75%;
+	font-size: 20px;
+	border-bottom: 5px ridge #C8CDE0;
+}
+
+.hnav a {
+	padding: 5%;
+	text-decoration: none;
+	font-family: 'Cinzel', serif;
+	color: #011167;
+}
+
+.hnav a:hover {
+	color: #9E7340;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+header {
+	height: 797px;
+}
+
+header img {
+	margin-left: 5%;
+	margin-top: 17%;
+	width: 450px;
+}
+
+header h1 {
+	text-align: center;
+	padding-top: 10%;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+#scroll img {
+	margin-left: 735px;
+	margin-top: -5px;
+	width: 50px;
+}
+
+header h2 {
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	font-size: 15px;
+}
+
+.video-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	z-index: -1;
+	border-bottom: 20px groove #C8CDE0;
+}
+
+#home {
+	min-height: 1000px;
+	background-image: url("../images/aether-lumine.png");
+	background-repeat: no-repeat;
+	background-size: 795px;
+	background-position: 0px bottom;
+}
+
+#home blockquote {
+	margin-left: 150px;
+	margin-top: 100px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 5em;
+	color: #9E7340;
+}
+
+#home p {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 5%;
+	font-family: 'Cinzel', serif;
+	font-size: 2em;
+}
+
+#home a {
+	text-decoration: none;
+	color: #79999B;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-left: 20px;
+}
+
+#home ul {
+	float: right;
+	margin: 400px 275px 0 0;
+	font-size: 25px;
+	list-style-type: none;
+}
+
+#home ul h3 {
+	font-family: 'Cinzel Decorative', cursive;
+	color: #9E7340;
+}
+
+#home ul li {
+	text-align: center;
+	padding: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+main {
+	min-height: 1000px;
+}
+
+blockquote {
+	margin-left: 150px;
+	margin-top: 100px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 5em;
+	color: #9E7340;
+}
+
+main h2 {
+	width: 80%;
+	padding: 5% 10% 0 9%;
+	font-family: 'Italianno', cursive;
+	font-size: 2.75em;
+	color: #3780A9;
+}
+
+main p {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 5%;
+	font-family: 'Cinzel', serif;
+	font-size: 2em;
+}
+
+main p:last-child {
+	padding-bottom: 5%;
+}
+
+main a {
+	text-decoration: none;
+	color: #79999B;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-left: 20px;
+}
+
+main ul {
+	float: right;
+	margin: 400px 275px 0 0;
+	font-size: 25px;
+	list-style-type: none;
+}
+
+main ul h3 {
+	font-family: 'Cinzel Decorative', cursive;
+	color: #9E7340;
+}
+
+main ul li {
+	text-align: center;
+	padding: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+table {
+	margin: 0 auto;
+	width: 80%;
+}
+
+legend {
+	font-family: 'Italianno', cursive;
+	font-size: 3.5em;
+	color: #3780A9;
+}
+
+td {
+	padding: 1.6%;
+	font-size: 2em;
+	font-family: 'Cinzel Decorative', cursive;
+	color: #9E7340;
+}
+
+#fName, #lName, #email {
+	padding: 1% 80% 1% 1%;
+	border-radius: 10px 10px;
+	border: 5px double #C8CDE0;
+}
+
+.btn {
+	float: right;
+	margin-right: 200px;
+	margin-top: 100px;
+	padding: 2.5%;
+	border: 10px double #C8CDE0;
+	border-radius: 50px 50px;
+	font-size: 1em;
+	font-family: 'Cinzel Decorative', cursive;
+	color: #9E7340;
+}
+
+.btn:hover {
+	border: 10px groove #c8cde0;
+	background-color: #C8CDE0;
+	color: #e5ebf7;
+}
+
+.fnav {
+	background-color: #FEFFF1;
+	height: 50px;
+	text-align: center;
+	padding-top: 1.75%;
+	font-size: 20px;
+	border-top: 10px ridge #C8CDE0;
+	border-bottom: 10px groove #9E7340;
+}
+
+.fnav a {
+	padding: 5%;
+	text-decoration: none;
+	font-family: 'Cinzel', serif;
+	color: #011167;
+}
+
+.fnav a:hover {
+	color: #9E7340;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+footer {
+	height: 700px;
+	background-color: #ECCE9C; 
+	text-align: center;
+/*	border-top: 20px ridge #9E7340; */
+}
+
+footer p {
+	color: #9E7340;
+	padding: 20px 0 10px;
+	font-family: 'Cinzel', serif;
+}
+
+footer h4, footer h5, footer h6 {
+	font-family: 'Cinzel Decorative', cursive;
+	color: #632E11;
+	padding-top: 5px;
+}
+
+footer a {
+	text-decoration: none;
+	font-family: 'Cinzel Decorative', cursive;
+	color: #9E7340;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
